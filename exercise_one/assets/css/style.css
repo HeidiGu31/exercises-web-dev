@@ -1,5 +1,9 @@
+h1{
+    background-color: blueviolet;
+    text-align: center;
+}
 body{
-    background-image: url("/exercise_one/assets/img/cute-kawaii-cats-kittens-funny-260nw-2142384337.webp");
+    background-image: url("/exercise_one/assets/img/cerezo.jpg");
     background-size: cover;
     background-color: pink;
 }
