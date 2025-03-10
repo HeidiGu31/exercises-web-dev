@@ -1,0 +1,10 @@
+services:
+  static-page-cats:
+    image: user/cats-web-page:latest
+    container_name: cats-web-page
+    expose:
+      - 8888
+    ports:
+      - "8888:80"
+    restart: always
+    network_mode: "bridge"
